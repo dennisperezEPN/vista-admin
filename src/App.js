@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import ColumnaOpciones from './ColumnaOpciones';
+import ContenedorSecundario from './ContenedorSecundario';
+import Footer from './Footer';
+import CrearPedido from './CrearPedido';
+import ActualizarPedido from './ActualizarPedido';
+
 import './App.css';
 
 function App() {
   return (
+    /* Vista administrador */
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id = "contenedor">
+        <ColumnaOpciones></ColumnaOpciones>
+        <ContenedorSecundario></ContenedorSecundario>
+      </div>
+      <Footer></Footer>
     </div>
+
+      /* Vistas Pedidos */
+    /* <CrearPedido></CrearPedido> */
+    /* <ActualizarPedido></ActualizarPedido> */
+    
   );
 }
 

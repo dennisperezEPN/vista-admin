@@ -1,0 +1,108 @@
+#contenedor-pedidos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #7393c4;
+    padding: 2% 2% 2% 2%;
+}
+
+#contenedor-form {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1%;
+}
+
+#contenedor-boton {
+    display: flex;
+}
+
+
+input {
+    margin-right: 1%;
+    padding-left: 1%;
+    border-radius: 0.5rem;
+}
+
+button {
+    width: 8%;
+    padding: 0.2%;
+    background-color: #15135e;
+    color: white;
+    border-style: none;
+}
+
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f0f5fc; /* Fondo azul claro */
+    border: 1px solid #c0c6d1; /* Borde de la tabla */
+    margin-top: 2%;
+}
+
+/* Encabezados de la tabla */
+th {
+    background-color: #f0f5fc; /* Fondo azul oscuro */
+    color:#15135e; /* Texto blanco */
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #c0c6d1;
+}
+
+/* Filas de la tabla */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #c0c6d1; /* Borde inferior para filas */
+    color: #333333; /* Color del texto */
+}
+
+/* Alternar color de fondo en filas */
+tbody tr:nth-child(even) {
+    background-color: #e8eef7; /* Azul claro para las filas pares */
+}
+
+/* Estilo para la columna de acciones */
+.actions {
+    text-align: center;
+}
+
+.actions .edit {
+    color: #ff8c00; /* Color naranja para el icono de edición */
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.actions .delete {
+    color: #ff4d4d; /* Color rojo para el icono de eliminación */
+    cursor: pointer;
+}
+
+/* Cambiar color en hover para los iconos de acciones */
+.actions .edit:hover {
+    color: #e67e00;
+}
+
+.actions .delete:hover {
+    color: #d63031;
+}
+
+/* Ajustes de espaciado */
+table,
+th,
+td {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* Estilo para celdas de estado */
+.aprobado {
+    color: green;
+    font-weight: bold;
+}
+
+.rechazado {
+    color: red;
+    font-weight: bold;
+}

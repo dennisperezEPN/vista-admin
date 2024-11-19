@@ -1,0 +1,35 @@
+.contenedor-actualizar-pedidos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenido-actualizar-pedidos {
+    background: #EBF0FC;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campos {
+    display: flex;
+    margin-bottom: 5%;
+  }
+
+  label {
+    margin-right: 5%;
+  }
+
+.campos-btn {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+#columna-opciones {
+    background-color: #e6f0ff;
+    height: 100%;
+    flex: 1;
+}
+
+ul {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 20%;
+}
+
+li {
+    list-style: none;
+    width:fit-content;
+    margin-bottom: 20%;
+    color: #022a5f;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+a {
+    color: #022a5f;
+}
+
+li:hover {
+    background-color: #83aff1; /* Cambia el color de fondo al pasar el cursor */
+    transform: scale(1.1);
+}
+
+ul li a {
+    text-decoration: none;
+}
